@@ -40,6 +40,7 @@ export const fetchOrderBook = async (symbol: string): Promise<OrderBook> => {
       })),
     };
   }
+  console.log(data);
   throw new Error("Invalid response from Binance");
 };
 
